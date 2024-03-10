@@ -13,12 +13,101 @@ nav{
   background-color: black;
   color: white;
   padding: 20px 50px;
-}
-
-.navTop{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+}
+
+.cartCount{
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.navItemMenu {
+  justify-content: flex-start;
+}
+
+.navItemLogo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navItemLogin {
+  justify-content: flex-end;
+}
+
+.accountLogin {
+  background-color: black;
+  border-radius: 20%;
+  cursor: pointer;
+  border: none;
+}
+
+.hamburgerMenu {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.hamburgerItems{
+  display: flex;
+  align-items: center;
+}
+
+.hamburgerMenu span {
+  width: 2rem;
+  height: 0.25rem;
+  background: white;
+  border-radius: 10px;
+}
+
+.menuItems{
+  display: none;
+}
+
+.menuItems {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  z-index: 1000;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+  display: none;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.menuItems.active {
+  transform: scaleY(1);
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem{
+  margin: 10px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  border-bottom: 0.5px solid darkgray;
 }
 
 .search{
@@ -39,22 +128,20 @@ nav{
   color: black;
 }
 
-.limtedOffer{
+.navLogo{
+  text-align: center;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.loginButton{
   font-size: 20px;
   font-weight: 400;
-}
-
-.navBottom{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.menuItem{
-  margin-right: 30px;
-  margin-left: 30px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
   cursor: pointer;
-  color: white;
 }
 
 .slider{

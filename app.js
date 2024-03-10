@@ -136,3 +136,12 @@ productButton.addEventListener("click",()=>{
 close.addEventListener("click",()=>{
   payment.style.display="none"
 });
+
+function toggleMenu() {
+  var menu = document.querySelector('.menuItems');
+  if(menu.classList.contains('active')) {
+    menu.classList.remove('active');
+  } else {
+    menu.classList.add('active');
+  }
+}
