@@ -5,7 +5,7 @@ const products =
 [
   {
       id: 1,
-      title: "Suit",
+      title: "Clothes",
       price: 79,
       colors: [
         {
@@ -16,11 +16,27 @@ const products =
           code: "black",
           img: "./img/suit2.png",
         },
+        {
+          code: "black",
+          img: "./img/saree.png",
+        },
+        {
+          code: "gray",
+          img: "./img/saree2.png",
+        },
+        {
+          code: "red",
+          img: "./img/lehnga.png",
+        },
+        {
+          code: "black",
+          img: "./img/lehnga2.png",
+        },
       ],
   },
   {
       id: 2,
-      title: "Saree",
+      title: "Best Selling Accessories",
       price: 79,
       colors: [
         {
@@ -35,7 +51,7 @@ const products =
   },
   {
       id: 3,
-      title: "Lehnga",
+      title: "Best Selling Handbags",
       price: 79,
       colors: [
         {

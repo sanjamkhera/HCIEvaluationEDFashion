@@ -488,6 +488,7 @@ footer{
   padding: 0;
   list-style: none;
 }
+
 .fListItem{
   margin-bottom: 10px;
   color: gray;
@@ -530,6 +531,128 @@ footer{
 .copyright{
   font-weight: 300;
   font-size: 14px;
+}
+
+.mainPage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filterColumn {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.arrivalSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filterSection h3 {
+  margin-bottom: 10px;
+}
+
+.filterSection div {
+  margin-bottom: 5px;
+}
+
+.arrivalSection {
+  float: right;
+  width: 75%;
+}
+
+
+.sectionTitle {
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.sectionParagraph {
+  text-align: center;
+  padding: 0 20px 20px 20px;
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.productsGrid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.prodImg{    
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 20px
+}
+
+.prodDesc {
+  align-self: flex-start;
+  margin-left: 5%;
+}
+
+.prodDesc h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.prodDesc h5 {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  color: gray;
+}
+
+.prodDesc h4 {
+  font-size: 25px;
+  margin: 20px 0;
+  padding: 0px;
+}
+
+.productButton {
+  display: block;
+  width: 80%;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.productItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 25%;
+  padding: 10px 10px;
+  border: 1px solid lightgray;
+  border-radius: 40px;
+  margin-bottom: 3rem;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  cursor: pointer;
+}
+
+.productItem:hover {
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.1);
+}
+
+.productTitle {
+  text-align: center;
+  margin: 1em 0;
 }
 
 @media screen and (max-width:480px) {
