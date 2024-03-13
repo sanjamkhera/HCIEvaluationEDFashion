@@ -11,216 +11,141 @@
 </head>
 
 <body>
-    <nav id="nav">
-      <div class="navItemMenu">
-        <div class="hamburgerItems">
-          <div class="hamburgerMenu" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="search">
-            <input type="text" placeholder="Search..." class="searchInput">
-            <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
-          </div>
+  <nav id="nav">
+    <div class="navItemMenu">
+      <div class="hamburgerItems">
+        <div class="hamburgerMenu" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search..." class="searchInput">
+          <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
         </div>
       </div>
-      <div class="navItemLogo">
-        <h1 class="navLogo">ED FASHION</h1>
-      </div>
-      <div class="navItemlogin">
-        <button class="accountLogin">
-          <img src="./img/account.png" width="40" height="40" alt="" class="accountLogin">
-        </button>
-      </div>
-    </nav>
-    <div class="menuItems">
-      <h3 class="menuItem">Clothes</h3>
-      <h3 class="menuItem">Accessories</h3>
-      <h3 class="menuItem">Handbags</h3>
     </div>
-    <div class="slider">
-      <div class="sliderWrapper">
-        
-        <div class="sliderItem">
-          <img src="./img/suit.png" alt="Suit Image" class="sliderImg">
-          <div class="slideBg"></div>
-          <h1 class="sliderTitle">Clothes</h1>
-          <button class="buyButton">Explore</button>
-        </div>
+    <div class="navItemLogo">
+      <a href="index.html" class="navLogo">ED FASHION</a>
+    </div>
+    <div class="navItemlogin">
+      <a href="login.html" class="accountLogin">
+        <img src="./img/account.png" width="40" height="40" alt="" class="accountLogin">
+      </a>
+    </div>
+  </nav>
 
-        <div class="sliderItem">
-          <img src="./img/saree.png" alt="Saree Image" class="sliderImg">
-          <div class="slideBg"></div>
-          <h1 class="sliderTitle">Accessories</h1>
-          <a href="#product">
-            <button class="buyButton">Explore</button>
-          </a>
-        </div>
+  <div class="menuItems">
+    <h3 class="menuItem">Clothes</h3>
+    <h3 class="menuItem">Accessories</h3>
+    <h3 class="menuItem">Handbags</h3>
+  </div>
 
-        <div class="sliderItem">
-          <img src="./img/lehnga.png" alt="lehnga Image" class="sliderImg">
-          <div class="slideBg"></div>
-          <h1 class="sliderTitle">Handbags</h1>
-          <a href="#product">
-            <button class="buyButton">Explore</button>
-          </a>
-        </div>
+  <div class="cartHeader">
+    <h2>My Shopping Cart</h2>
+  </div>
 
-      </div>
-    </div>
-    <div class="features">
-      <div class="feature">
-        <img src="./img/shipping.png" alt="" class="featureIcon">
-        <span class="featureTitle">FREE SHIPPING</span>
-        <span class="featureDesc">Free World-Wide Shipping on all orders.</span>
-      </div>
-      <div class="feature">
-        <img src="./img/return.png" alt="" class="featureIcon">
-        <span class="featureTitle">30 DAY RETURN</span>
-        <span class="featureDesc">No question return, easy refund.</span>
-      </div>
-      <div class="feature">
-        <img src="./img/gift.png" alt="" class="featureIcon">
-        <span class="featureTitle">GIFT CARDS</span>
-        <span class="featureDesc">Free World-Wide Shipping on all orders.</span>
-      </div>
-      <div class="feature">
-        <img src="./img/contact.png" alt="" class="featureIcon">
-        <span class="featureTitle">CONTACT US</span>
-        <span class="featureDesc">Free World-Wide Shipping on all orders.</span>
-      </div>
-    </div>
-    <div class="product" id="product">
-      <img src="./img/suit.png" alt="" class="productImg">
-      <div class="productDetails">
-        <h1 class="productTitle">Best Selling Clothes</h1>
-        <h2 class="productPrice">$79.00</h2>
-        <p class="productDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fuga, dolores quaerat vel
-          dolor culpa architecto obcaecati enim incidunt consectetur adipisci molestias repellendus quod earum nemo ut
-          assumenda?</p>
-        <div class="colors">
-          <div class="color"></div>
-          <div class="color"></div>
-        </div>
-        <div class="sizes">
-          <div class="size">Small</div>
-          <div class="size">Medium</div>
-          <div class="size">Large</div>
-        </div>
-        <button class="productButton">Add to Cart</button>
-      </div>
-      <div class="payment">
-        <h1 class="payTitle">Personal Information</h1>
-        <label>Name and Surname</label>
-        <input type="text" placeholder="John Doe" class="payInput">
-        <label>Phone Number</label>
-        <input type="text" placeholder="+1 243 973 9809" class="payInput">
-        <label>Address</label>
-        <input type="text" placeholder="Elton St 21 22-145" class="payInput">
-        <h1 class="payTitle">Card Information</h1>
-        <div class="cardIcons">
-          <img src="./img/visa.png" alt="" class="cardIcon">
-          <img src="./img/mstrcard.png" alt="" class="cardIcon">
-          <img src="./img/amex.png" alt="" class="cardIcon">
-          <img src="./img/paypal.png" alt="" class="cardIcon">
-        </div>
-        <input type="text" placeholder="XXXX XXXX XXXX XXXX" class="payInput">
-        <div class="cardInfo">
-          <input type="text" placeholder="mm" class="payInput sm">
-          <input type="text" placeholder="yyyy" class="payInput sm">
-          <input type="text" placeholder="cvv" class="payInput sm">
-        </div>
-        <button class="payButton">Checkout</button>
-        <span class="close">X</span>
-      </div>
-    </div>
-    <div class="gallery">
-      <div class="galleryItem">
-        <h1 class="galleryTitle">Be Yourself</h1>
-        <img src="./img/gallery.png" alt="" class="galleryImg">
-      </div>
-      <div class="galleryItem">
-        <img src="./img/gallery2.png" alt="" class="galleryImg">
-        <h1 class="galleryTitle">First Day of New Life</h1>
-      </div>
-      <div class="galleryItem">
-        <h1 class="galleryTitle">Elegance</h1>
-        <img src="./img/gallery3.png" alt="" class="galleryImg">
-      </div>
-    </div>
-    <div class="newSeason">
-      <div class="nsItem">
-        <img src="./img/nseason.png" alt="" class="nsImg">
-      </div>
-      <div class="nsItem">
-        <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
-        <h1 class="nsTitle">New Season</h1>
-        <h1 class="nsTitle">New Collection</h1>
-        <a href="#nav">
-          <button class="nsButton">CHOOSE YOUR STYLE</button>
-        </a>
-      </div>
-      <div class="nsItem">
-        <img src="./img/nseason2.png" alt="" class="nsImg">
-      </div>
-    </div>
-    <footer>
-      <div class="footerLeft">
-        <div class="footerMenu">
-          <h1 class="fMenuTitle">About Us</h1>
-          <ul class="fList">
-            <li class="fListItem">Company</li>
-            <li class="fListItem">Contact</li>
-            <li class="fListItem">Careers</li>
-            <li class="fListItem">Affiliates</li>
-            <li class="fListItem">Stores</li>
-          </ul>
-        </div>
-        <div class="footerMenu">
-          <h1 class="fMenuTitle">Useful Links</h1>
-          <ul class="fList">
-            <li class="fListItem">Support</li>
-            <li class="fListItem">Refund</li>
-            <li class="fListItem">FAQ</li>
-            <li class="fListItem">Feedback</li>
-            <li class="fListItem">Stories</li>
-          </ul>
-        </div>
-        <div class="footerMenu">
-          <h1 class="fMenuTitle">Products</h1>
-          <ul class="fList">
-            <li class="fListItem">Suit</li>
-            <li class="fListItem">Saree</li>
-            <li class="fListItem">Lehnga</li>
-            <li class="fListItem">Kurti</li>
-            <li class="fListItem">Western</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footerRight">
-        <div class="footerRightMenu">
-          <h1 class="fMenuTitle">Subscribe</h1>
-          <div class="fMail">
-            <input type="text" placeholder="your@email.com" class="fInput">
-            <button class="fButton">Join</button>
+  <div class="cartContainer">
+
+    <div class="cartItems">
+      <div class="cartItem">
+        <img src="./img/suit.png" alt="Item 1" class="cartItemImage">
+        <div class="itemDescription">
+          <h1 class="itemName">Red Silk Suit</h1>
+          <p class="itemColor">Color: Red</p>
+          <p class="itemPrice">$100.00</p>
+          <div class="itemQuantity">
+            <button class="quantityButton">-</button>
+            <input type="number" value="1" class="quantityInput">
+            <button class="quantityButton">+</button>
           </div>
         </div>
-        <div class="footerRightMenu">
-          <h1 class="fMenuTitle">Follow us</h1>
-          <div class="fIcons">
-            <img src="./img/ficon.png" alt="" class="fIcon">
-            <img src="./img/xicon.png" alt="" class="fIcon">
-            <img src="./img/igicon.png" alt="" class="fIcon">
-            <img src="./img/wicon.png" alt="" class="fIcon">
+      </div>
+
+
+      <div class="cartItem">
+        <img src="./img/saree.png" alt="Item 2" class="cartItemImage">
+        <div class="itemDescription">
+          <h1 class="itemName">Blue Silk Saree</h1>
+          <p class="itemColor">Color: Blue</p>
+          <p class="itemPrice">$100.00</p>
+          <div class="itemQuantity">
+            <button class="quantityButton">-</button>
+            <input type="number" value="1" class="quantityInput">
+            <button class="quantityButton">+</button>
           </div>
         </div>
-        <div class="footerRightMenu">
-          <span class="copyright">@KurtaTech Solutions. All Rights Reserved. 2024</span>
+      </div>
+    </div>
+
+
+
+    <div class="cartSummary">
+      <h3>Summary</h3>
+      <p>Subtotal: $200.00</p>
+      <p>Shipping: $0.00</p>
+      <button class="continueShopping">Continue Shopping</button>
+      <button class="checkoutButton">Proceed to Checkout</button>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footerLeft">
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">About Us</h1>
+        <ul class="fList">
+          <li class="fListItem">Company</li>
+          <li class="fListItem">Contact</li>
+          <li class="fListItem">Careers</li>
+          <li class="fListItem">Affiliates</li>
+          <li class="fListItem">Stores</li>
+        </ul>
+      </div>
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Useful Links</h1>
+        <ul class="fList">
+          <li class="fListItem">Support</li>
+          <li class="fListItem">Refund</li>
+          <li class="fListItem">FAQ</li>
+          <li class="fListItem">Feedback</li>
+          <li class="fListItem">Stories</li>
+        </ul>
+      </div>
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Products</h1>
+        <ul class="fList">
+          <li class="fListItem">Suit</li>
+          <li class="fListItem">Saree</li>
+          <li class="fListItem">Lehnga</li>
+          <li class="fListItem">Kurti</li>
+          <li class="fListItem">Western</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerRight">
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Subscribe</h1>
+        <div class="fMail">
+          <input type="text" placeholder="your@email.com" class="fInput">
+          <button class="fButton">Join</button>
         </div>
       </div>
-    </footer>
-    <script src="./app.js"></script>
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Follow us</h1>
+        <div class="fIcons">
+          <img src="./img/ficon.png" alt="" class="fIcon">
+          <img src="./img/xicon.png" alt="" class="fIcon">
+          <img src="./img/igicon.png" alt="" class="fIcon">
+          <img src="./img/wicon.png" alt="" class="fIcon">
+        </div>
+      </div>
+      <div class="footerRightMenu">
+        <span class="copyright">@KurtaTech Solutions. All Rights Reserved. 2024</span>
+      </div>
+    </div>
+  </footer>
+  <script src="./app.js"></script>
 </body>
 
 </html>
