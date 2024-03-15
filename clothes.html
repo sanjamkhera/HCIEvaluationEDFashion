@@ -1,39 +1,57 @@
+<!-- This is the start of the HTML document -->
 <html lang="en">
 
+<!-- The head section contains meta information and links to stylesheets -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Link to the main stylesheet -->
   <link rel="stylesheet" href="style.css">
+  <!-- The title of the webpage -->
   <title>ED Fashion</title>
 </head>
 
+<!-- The body section contains the content of the webpage -->
 <body>
+  <!-- Navigation section -->
   <nav id="nav">
     <div class="navItemMenu">
+      <!-- Hamburger menu icon -->
       <div class="hamburgerItems">
         <div class="hamburgerMenu" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
         </div>
+        <!-- Search bar -->
         <div class="search">
           <input type="text" placeholder="Search..." class="searchInput">
           <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
         </div>
       </div>
     </div>
+    <!-- Logo -->
     <div class="navItemLogo">
       <a href="index.html" class="navLogo">ED FASHION</a>
     </div>
+    <!-- Account login -->
     <div class="navItemlogin">
       <a href="login.html" class="accountLogin">
         <img src="./img/account.png" width="40" height="40" alt="" class="accountLogin">
       </a>
     </div>
+    <!-- Cart -->
+    <div class="navItemCart">
+      <a href="cart.html" class="cart">
+        <img src="./img/cart.png" width="40" height="40" alt="" class="cartIcon">
+        <span id="cartCount" class="cartCount">0</span>
+      </a>
+    </div>
   </nav>
+
+  <!-- Menu items under the nav bar -->
   <div class="menuItems">
     <h3 class="menuItem"><a href="clothes.html">Clothes</a></h3>
     <h3 class="menuItem"><a href="accessories.html">Accessories</a></h3>
@@ -41,120 +59,137 @@
     <h3 class="menuItem"><a href="accountHome.html">My Account</a></h3>
   </div>
 
+  <!-- The main content of the webpage -->
   <div class="mainPage">
     <div class="filterColumn">
       <h2>Filter by</h2>
       <div class="filterSection">
         <h3>Color</h3>
         <div>
-          <input type="checkbox" id="colorRed" name="color" value="red">
+          <input type="checkbox" value="red">
           <label for="colorRed">Red</label>
+        </div>
+        <div>
+          <input type="checkbox" value="blue">
+          <label for="colorBlue">Blue</label>
+        </div>
+        <div>
+          <input type="checkbox" value="green">
+          <label for="colorBlue">Green</label>
+        </div>
+        <div>
+          <input type="checkbox" value="gray">
+          <label for="colorBlue">Gray</label>
         </div>
       </div>
       <div class="filterSection">
         <h3>Size</h3>
         <div>
-          <input type="checkbox" id="sizeSmall" name="size" value="small">
+          <input type="checkbox" value="small">
           <label for="sizeSmall">Small</label>
+        </div>
+        <div>
+          <input type="checkbox" value="medium">
+          <label for="sizeMedium">Medium</label>
+        </div>
+        <div>
+          <input type="checkbox" value="large">
+          <label for="sizeLarge">Large</label>
+        </div>
+      </div>
+      <div class="filterSection">
+        <h3>Material</h3>
+        <div>
+          <input type="checkbox" value="silk">
+          <label for="materialSilk">Silk</label>
+        </div>
+        <div>
+          <input type="checkbox" value="cotton">
+          <label for="materialCotton">Cotton</label>
+        </div>
+        <div>
+          <input type="checkbox" value="synthetic">
+          <label for="materialSynthetic">Synthetic</label>
         </div>
       </div>
     </div>
+
+    <!-- The section for product -->
     <div class="arrivalSection">
-  
       <h2 class="sectionTitle">Clothes</h2>
-      <p class="sectionParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit officia nam earum nisi numquam dolores consectetur praesentium consequuntur alias.</p>
-  
+      <p class="sectionParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit officia nam
+        earum nisi numquam dolores consectetur praesentium consequuntur alias.</p>
+
+      <!-- Grid for displaying products -->
       <div class="productsGrid">
-  
+
+        <!-- Individual product items -->
         <div class="productItem">
-  
           <img src="./img/suit.png" alt="Suit Image" class="prodImg">
-  
           <div class="prodDesc">
-            <h3 class="productType">Suit</h3>
-            <h5 class="prodAbout">Loose Suit</h5>
+            <h3 class="productType">Kurti</h3>
+            <h5 class="prodAbout">Lorem, ipsum.</h5>
             <h4 class="productPrice">$50.00</h4>
           </div>
-  
           <button class="productButton">Add to Cart</button>
-  
         </div>
-  
+
         <div class="productItem">
-  
           <img src="./img/kurti.png" alt="Suit Image" class="prodImg">
-  
           <div class="prodDesc">
             <h3 class="productType">Suit</h3>
-            <h5 class="prodAbout">Loose Suit</h5>
+            <h5 class="prodAbout">Lorem, ipsum</h5>
             <h4 class="productPrice">$50.00</h4>
           </div>
-  
           <button class="productButton">Add to Cart</button>
-  
         </div>
-  
+
         <div class="productItem">
-  
           <img src="./img/lehnga.png" alt="Suit Image" class="prodImg">
-  
           <div class="prodDesc">
-            <h3 class="productType">Suit</h3>
-            <h5 class="prodAbout">Loose Suit</h5>
+            <h3 class="productType">Lehnga</h3>
+            <h5 class="prodAbout">Lorem, ipsum.</h5>
             <h4 class="productPrice">$50.00</h4>
           </div>
-  
           <button class="productButton">Add to Cart</button>
-  
         </div>
-  
+
         <div class="productItem">
-  
           <img src="./img/western.png" alt="Suit Image" class="prodImg">
-  
           <div class="prodDesc">
             <h3 class="productType">Suit</h3>
             <h5 class="prodAbout">Loose Suit</h5>
             <h4 class="productPrice">$50.00</h4>
           </div>
-  
           <button class="productButton">Add to Cart</button>
-  
         </div>
-  
+
         <div class="productItem">
-  
           <img src="./img/gallery2.png" alt="Suit Image" class="prodImg">
-  
           <div class="prodDesc">
             <h3 class="productType">Suit</h3>
             <h5 class="prodAbout">Loose Suit</h5>
             <h4 class="productPrice">$50.00</h4>
           </div>
-  
           <button class="productButton">Add to Cart</button>
-  
         </div>
-  
+
         <div class="productItem">
-  
           <img src="./img/western.png" alt="Suit Image" class="prodImg">
-  
           <div class="prodDesc">
             <h3 class="productType">Suit</h3>
             <h5 class="prodAbout">Loose Suit</h5>
             <h4 class="productPrice">$50.00</h4>
           </div>
-  
           <button class="productButton">Add to Cart</button>
-  
         </div>
-  
+
       </div>
-  
+
     </div>
   </div>
 
+  <!-- The footer of the webpage -->
   <footer>
     <div class="footerLeft">
       <div class="footerMenu">
@@ -211,7 +246,7 @@
     </div>
   </footer>
 
-
+  <!-- Link to the main JavaScript file -->
   <script src="./app.js"></script>
 </body>
 
