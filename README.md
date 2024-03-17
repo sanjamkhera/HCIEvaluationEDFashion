@@ -12,7 +12,7 @@ This is a responsive design that uses javascript for animation.
 
 #### How to Run
 
-To run an HTML, CSS, and JS project from the terminal, you can use a simple HTTP server. Here's how you can do it:
+To run an HTML, CSS, and JS project from the terminal, you can use a HTTP server.
 
 Open a UNIX terminal.
 Navigate to the directory where your project files are located.
@@ -24,7 +24,7 @@ python -m http.server
 
 or 
 
-python -m http.server
+python3 -m http.server
 
 This will start the server on port 8000 by default.
 Open your web browser and visit http://localhost:8000. 
