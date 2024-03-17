@@ -1,35 +1,48 @@
 COMP 482 Assignment 3
 =====================
-
-E-Commerce Website for Indian Clothing
+SANJAM KHERA
 --------------------------------------
 
 ### Tools
 
 #### Technologies
 
-This E - Commerce interface was built using HTML, JavaScript and CSS with no additional frameworks or libraries used. This is a responsive design that uses CSS media queries.
-
-#### Hosting 
-
-The website is hosted on GitHub Pages. You can access it at [https://username.github.io/repo-name](https://username.github.io/repo-name). Replace 'username' with your GitHub username and 'repo-name' with the name of the repository.
+This E - Commerce interface was built using HTML, JavaScript and CSS with no additional frameworks or libraries used. 
+This is a responsive design that uses javascript for animation.
 
 #### How to Run
 
-1. Clone the repository to your local machine using `git clone https://github.com/username/repo-name.git`.
-2. Navigate to the project directory using `cd repo-name`.
-3. Open `index.html` in your preferred browser.
+To run an HTML, CSS, and JS project from the terminal, you can use a simple HTTP server. Here's how you can do it:
 
-#### Design Process
+Open a UNIX terminal.
+Navigate to the directory where your project files are located.
+You can start a HTTP server using Python's built-in http.server module. 
 
-The design process involved creating a responsive layout that would adapt to different screen sizes using CSS media queries. The website features a simple and intuitive interface, making it easy for users to navigate and make purchases.
+Run the following command:
 
-#### Files 
+python -m http.server
 
-1. `index.html`: This is the main file that contains the structure of the website.
-2. `styles.css`: This file contains all the styles used in the website.
-3. `script.js`: This file contains all the JavaScript code used for interactivity.
+or 
 
-#### Additional Notes
+python -m http.server
 
-This project is for educational purposes only and is not intended for commercial use. Please feel free to clone and modify for your own needs.
+This will start the server on port 8000 by default.
+Open your web browser and visit http://localhost:8000. 
+You should see your project running in the browser.
+
+#### Recommended
+
+You can use VS Code's live server extension and run locally.
+
+OR
+
+You can use the following Github links to visit this project repository and webpages
+
+github link to the repository: git@github.com:sanjamkhera/HCIEvaluationEDFashion.git 
+
+Link to functioning webpages: https://sanjamkhera.github.io/HCIEvaluationEDFashion/
+
+#### Reference
+
+- DALL-E GPT for images
+- Pixaby Images (Free License)
