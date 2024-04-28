@@ -10,6 +10,8 @@ SANJAM KHERA
 This E - Commerce interface was built using HTML, JavaScript and CSS with no additional frameworks or libraries used. 
 This is a responsive design that uses javascript for animation.
 
+[YouTube Video](https://youtu.be/RqN0GUtnFe4)
+
 #### How to Run
 
 To run an HTML, CSS, and JS project from the terminal, you can use a HTTP server.
