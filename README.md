@@ -1,16 +1,18 @@
-COMP 482 Assignment 3
+ED Fashion Website
 =====================
-SANJAM KHERA
---------------------------------------
 
-### Tools
 
-#### Technologies
+### About
 
-This E - Commerce interface was built using HTML, JavaScript and CSS with no additional frameworks or libraries used. 
 This is a responsive design that uses javascript for animation.
 
+#### See Demp
+
 [YouTube Video](https://youtu.be/RqN0GUtnFe4)
+
+### Tools and Technologies
+
+This E - Commerce interface was built using HTML, JavaScript and CSS with no additional frameworks or libraries used. 
 
 #### How to Run
 
