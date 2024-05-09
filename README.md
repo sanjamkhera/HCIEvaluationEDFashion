@@ -6,7 +6,7 @@ ED Fashion Website
 
 This is a responsive design that uses javascript for animation.
 
-#### See Demp
+#### See Demo
 
 [YouTube Video](https://youtu.be/RqN0GUtnFe4)
 
